@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+	<title>SocialRed</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	
+	<script type="text/javascript">
+	$(document).ready(function(){
+
+	$(".rounded.img, .rounded-img2").load(function()){
+		$(this).wrap(function(){
+		return '<span class="' + $(this).attr('class') + '"style="background:url(' + $(this).attr('src') + ') no-repeat center center; width: ' +$(this).width() + 'px; height: ' + $(this).height() + 'px;" />';
+		});
+		$(this).css("opacity","0");
+		});
+	});	
+	</script>
+
+
+</head>
+<body>
+	<div id="global">
+	<header>
+		<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+		<div id="nombre">
+			Nombre
+		</div>
+		<img class="rounded-img"  src="imagenes/index.jpg" id="imagencita">
+		<div id="descripcion">
+			Quien soy
+		</div>
+		<div id="gustos">
+			Que me gusta
+		</div>
+		<div id="metas">
+			Que quiero para mi vida
+		</div>
+		<div id="contacto">
+			Contactame
+		</div>
+	</header>
+		<article>
+			<aside>
+			</aside>
+			<section>
+			</section>
+		</article>
+
+	</div>
+</body> 
+</hmtl>
+
+

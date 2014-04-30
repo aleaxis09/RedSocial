@@ -1,0 +1,177 @@
+body
+{
+	margin: 0 auto;
+	background-color: #f1f1f1; 
+}
+
+#global
+{
+	width: 842px;
+	height: 1500px;
+	margin: 0 auto;
+	padding: 10px;
+	box-shadow: #333 0px 0px 10px;
+	background-color: #FFF;
+
+}
+ 
+nav{
+	background-color: #777; 
+	text-align: center;
+	border-radius: 10px;
+}
+
+nav ul li
+{
+	display:inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+	color: #f1f1f1;
+
+}
+
+nav ul li a
+{
+	width: 80px;
+	color:#f3f3f3;
+	text-decoration: none;
+	padding: 10px 15px;
+}
+
+
+#Nombre_perfil
+{
+	background-color: #111;
+	width: 250px;
+	margin: 0px 296px;
+	color: red;
+
+}
+nav{
+	background-color: #111;
+	text-align: center;
+
+	
+}
+nav ul li{
+	display: inline-block;
+	text-align: center;
+	padding: 1px 25px;
+	color: red;
+}
+
+.logo
+{
+	transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	-webkit-transition: all 0.5s linear;
+	cursor: pointer;
+	margin: 15px;
+
+}
+
+#nombre{
+	width: 400px;
+	height: 60px;
+	background-color: black;
+	margin: 0px 200px;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	border-radius: 50px;
+}
+
+#descripcion{
+	float: left;
+	width: 350px;
+	height: 300px;
+	margin: 0px 35px;
+	background-color: silver;
+	text-align: center;
+	font-size: 30px;
+	border-radius: 20px;
+}
+
+#gustos{
+	float: right;
+	width: 350px;
+	height: 300px;
+	margin: 0px 35px;
+	background-color: silver;
+	text-align: center;
+	font-size: 30px;
+	border-radius: 20px;
+}
+
+#metas{
+	float: left;
+	width: 350px;
+	height: 300px;
+	margin: 20px 35px;
+	background-color: silver;
+	text-align: center;
+	font-size: 30px;
+	border-radius: 20px;
+}
+
+#contacto{
+	float: right;
+	width: 350px;
+	height: 300px;
+	margin: 20px 35px;
+	background-color: silver;
+	text-align: center;
+	font-size: 30px;
+	border-radius: 20px;
+}
+
+
+
+.logo:hover
+{
+	width:400;
+	padding: 20px;
+	border: #333 5px ;
+	border:solid;
+	background-color: #555;
+}
+
+.rounded-img{
+	width: 300px;
+	height: 300px;
+	margin: 20px 260px;
+	display: inline-block;
+	border: solid 1px #000;
+	overflow: hidden;
+	-webkit-border-radius: 300px;
+	-moz-border-radius: 300px;
+	border-radius: 300px;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	box-shadow: 0 1px 3px rgba(0,0,0,.4);
+}
+
+.rounded-img2{
+	display: inline-block;
+	-webkit-border-radius: 300px;
+	-moz-border-radius: 300px;
+	border-radius: 300px;
+	-webkit-box-shadow: inset 0 1px 5px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.9), 0 -1px 0 rgba(0,0,0,.6);
+	-moz-box-shadow: inset 0 1px 5px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.9),0 -1px 0 rgba(0,0,0,.6);
+	box-shadow: inset 0 1px 5px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.9), 0 -1px 0 rgba(0,0,0,.6);
+	
+}
+
+#paginacion{
+	border: 1px;
+	background-color: #E0E0E0;	
+	padding: .5em;	
+}
+
+.derecha{
+	float: right;
+	background-color: blue;
+}
+
+.izquierda{float:left;}
